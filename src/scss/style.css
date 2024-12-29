@@ -74,6 +74,7 @@ nav ul .active-link::after {
   font-size: 50px;
   font-weight: 600;
   color: var(--third-color);
+  margin-block: 20px;
 }
 .home-text .subtitle {
   font-size: 15px;
@@ -86,7 +87,7 @@ nav ul .active-link::after {
 }
 .home-text .text-btn > .blue-btn {
   background-color: var(--first-color);
-  color: var(--white-color);
+  color: var(--withe-color);
 }
 .home-text .text-btn > .blue-btn:hover {
   background-color: var(--first-color-hover);

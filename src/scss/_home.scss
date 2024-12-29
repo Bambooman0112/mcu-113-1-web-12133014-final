@@ -19,6 +19,7 @@
     font-size: 50px;
     font-weight: 600;
     color: var(--third-color);
+    margin-block: 20px;
   }
 
   .subtitle {
@@ -32,7 +33,7 @@
 
     > .blue-btn {
       background-color: var(--first-color);
-      color: var(--white-color);
+      color: var(--withe-color);
 
       &:hover {
         background-color: var(--first-color-hover);

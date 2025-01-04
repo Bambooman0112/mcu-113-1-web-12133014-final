@@ -38,8 +38,9 @@ body {
   padding-inline: 10vw;
 
   .home-box {
+    display: flex;
     padding-block: 6em;
-    height: 100vw;
+    height: 100vh;
     min-height: 700px;
   }
 

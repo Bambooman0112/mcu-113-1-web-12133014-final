@@ -140,7 +140,7 @@ nav ul .active-link::after {
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: 600;
-  color: var(--second-color);
+  color: black;
 }
 .about-container .card {
   display: flex;
@@ -172,6 +172,17 @@ nav ul .active-link::after {
   padding: 15px;
   color: var(--text-color);
   position: relative;
+}
+.about-container .list .item::before {
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  margin-top: 3px;
+  left: -17px;
+  border-radius: 50px;
+  width: 15px;
+  height: 15px;
+  background-color: var(--first-color);
 }
 
 :root {

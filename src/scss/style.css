@@ -179,10 +179,25 @@ nav ul .active-link::after {
   position: absolute;
   margin-top: 3px;
   left: -17px;
-  border-radius: 50px;
   width: 15px;
   height: 15px;
+  border-radius: 50px;
   background-color: var(--first-color);
+}
+
+.skill-container {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.skill-container .skill-item {
+  flex-basis: calc(50% - 20px);
+}
+.skill-container .skill-item .skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 :root {
